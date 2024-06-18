@@ -1,0 +1,8 @@
+## ignore data
+data/
+
+## ignore venv
+.venv
+
+## ignore results folder
+Results/

@@ -1,0 +1,6 @@
+Étapes pour le match
+1.
+cd /Users/camilleclermont/Library/CloudStorage/OneDrive-UniversitéLaval/Université/Baccalauréat\ en\ psychologie/Recherche/Jacinthe\ Dion/PRESAJ/Match\ des\ BD/programme_presaj_match
+
+2.
+python3 match.py
