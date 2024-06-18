@@ -2,11 +2,11 @@
 
 
 
-################### PROGRAMME DE MATCH #####################
-### Utilisation 
+# ################### PROGRAMME DE MATCH #####################
+## Utilisation 
 On doit configurer les paramètres pour le match dans le fichier config.ini
 
-## paramètres
+### paramètres
 [NOM_FICHIERS]
 donne le chemin d'accès de tous les fichiers pour le match de données
 
@@ -67,24 +67,24 @@ CUT_OFF_SCORE: 80
 
 MATCH_T2: TRUE
 
-############ Étapes pour utiliser le programme ###############
-# si première fois :
-## Installer  GIT
+# ############ Étapes pour utiliser le programme ###############
+## si première fois :
+### Installer  GIT
 Suivre les étapes pour Windows : https://www.git-scm.com/download/win
 
 Suivre les étapes pour Mac : https://www.git-scm.com/download/mac
 
-## Installer python 
+### Installer python 
 Suivre les étapes pour Windows : https://www.digitalocean.com/community/tutorials/install-python-windows-10
 
 Suivre les étapes pour Mac : https://www.dataquest.io/blog/installing-python-on-mac/
 
-# lancer le programme
+## lancer le programme
 
-## windows 
+### windows 
 click droit sur le fichier run_match.exe -> run as administrator
 
-## Mac
+### Mac
 
 
 
