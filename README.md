@@ -2,7 +2,7 @@
 
 
 
-# ################### PROGRAMME DE MATCH #####################
+# PROGRAMME DE MATCH 
 ## Utilisation 
 On doit configurer les paramètres pour le match dans le fichier config.ini
 
@@ -67,7 +67,7 @@ CUT_OFF_SCORE: 80
 
 MATCH_T2: TRUE
 
-# ############ Étapes pour utiliser le programme ###############
+# Étapes pour utiliser le programme 
 ## si première fois :
 ### Installer  GIT
 Suivre les étapes pour Windows : https://www.git-scm.com/download/win
