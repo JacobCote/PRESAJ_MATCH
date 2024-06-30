@@ -77,9 +77,9 @@ MATCH_T2: TRUE
 # Étapes pour utiliser le programme 
 ## Windows
 ### Installation (Seulement faire la première fois)
-1. Installer python, suivre les [étapes](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
-2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win)
-    (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) 
+1. Installer python, suivre les [étapes](https://www.digitalocean.com/community/tutorials/install-python-windows-10).
+2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win).
+    (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) .
 3. Ouvrir l'application Git Bash que l'on vient d'installer sur l'ordinateur, une fenêtre de terminal apparaîtra.
 4. Copier coller la commandes suivant et faire la touche Enter :
 ``` bash
@@ -98,12 +98,13 @@ cd PRESAJ_MATCH
 ``` bash
 ls
 ```
-On devrait voir apparaître des fichiers et aussi les dossier `data/` et `venv/`
+On devrait voir apparaître des fichiers et aussi les dossier `data/` et `venv/`.
 
 8. On doir maintenant ajouter les données dans le dossier `data/`. Pour ce faire, entrer la commande suivante pour ouvrir le dossier du programme (le point est important) et glissez les données dans le dossier `data/`
 ``` bash
 explorer . 
 ```
+9. Fermer la fenêtre de terminal.
 
 ### Lancer le programme 
 1. Ouvrir l'application Git Bash.
