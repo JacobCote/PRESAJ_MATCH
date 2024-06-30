@@ -6,7 +6,7 @@
 ## Utilisation 
 On doit configurer les paramètres pour le match dans le fichier config.ini
 
-### paramètres
+### Paramètres
 [NOM_FICHIERS]
 
 donne le chemin d'accès de tous les fichiers pour le match de données
@@ -76,7 +76,7 @@ MATCH_T2: TRUE
 
 # Étapes pour utiliser le programme 
 ## Windows
-# Installation (Seulement faire la première fois)
+### Installation (Seulement faire la première fois)
 1. Installer python, suivre les [étapes](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win)
     (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) 
@@ -105,7 +105,7 @@ On devrait voir apparaître des fichiers et aussi les dossier `data/` et `venv/`
 explorer . 
 ```
 
-# Lancer le programme 
+### Lancer le programme 
 1. Ouvrir l'application Git Bash.
 
 2. Copier coller la commandes suivante et faire la touche Enter :
@@ -138,14 +138,6 @@ explorer .
 ```
 
 Le dossier `Results` devrait y être.
-
-
-
-
-
-
-
-
 
 
 Si vous avez des questions, vous pouvez communiquer avec moi :
