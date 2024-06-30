@@ -8,11 +8,11 @@ fi
 
 # Create a virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
-  echon 'venv not existing, crating a venv'
+  echo 'venv not existing, crating a venv'
   # Create the virtual environment
   python3 -m venv venv
   # Activate the virtual environment
-  source venv/bin/activate
+  source venv/Scripts/activate
   # Install dependencies from requirements.txt
   pip install -r requirements.txt
   # Deactivate the virtual environment
@@ -20,7 +20,7 @@ if [ ! -d "venv" ]; then
 fi
 
 # Activate the virtual environment
-source venv/bin/activate
+#source venv/Scripts/activate
 # Run the Python script 'match.py'
-python3 match.py
+#python3 match.py
 
