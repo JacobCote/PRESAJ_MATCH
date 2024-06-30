@@ -73,27 +73,6 @@ CUT_OFF_SCORE: 80
 
 MATCH_T2: TRUE
 
-# Étapes pour utiliser le programme 
-## si première fois :
-### Installer  GIT
-1. Suivre les étapes pour Windows : https://www.git-scm.com/download/win
-
-Suivre les étapes pour Mac : https://www.git-scm.com/download/mac
-
-Ouvrir l'application 
-
-### Installer python 
-Suivre les étapes pour Windows : https://www.digitalocean.com/community/tutorials/install-python-windows-10
-
-Suivre les étapes pour Mac : https://www.dataquest.io/blog/installing-python-on-mac/
-
-## lancer le programme
-
-### windows 
-
-
-### Mac
-
 
 # Étapes pour utiliser le programme 
 ## Windows
@@ -101,17 +80,67 @@ Suivre les étapes pour Mac : https://www.dataquest.io/blog/installing-python-on
 1. Installer python, suivre les [étapes](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
 2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win)
     (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) 
-3. Ouvrir l'application Git Bash sur l'ordinateur, une fenêtre de terminal apparaîtra.
+3. Ouvrir l'application Git Bash que l'on vient d'installer sur l'ordinateur, une fenêtre de terminal apparaîtra.
 4. Copier coller la commandes suivant et faire la touche Enter :
 ``` bash
 git clone https://github.com/JacobCote/PRESAJ_MATCH.git
 ```
-5. Copier coller la commandes suivant et faire la touche Enter :
+5. Copier coller la commandes suivante et faire la touche Enter :
 ``` bash
 cd PRESAJ_MATCH
-
-./setupW.sh
 ```
+6. Copier coller la commandes suivante et faire la touche Enter :
+``` bash
+./setupWin.sh
+```
+
+7. Si tout s'est bien déroulé, en entrant la commandes suivante :
+``` bash
+ls
+```
+On devrait voir apparaître des fichiers et aussi les dossier `data/` et `venv/`
+
+8. On doir maintenant ajouter les données dans le dossier `data/`. Pour ce faire, entrer la commande suivante pour ouvrir le dossier du programme (le point est important) et glissez les données dans le dossier `data/`
+``` bash
+explorer . 
+```
+
+# Lancer le programme 
+1. Ouvrir l'application Git Bash.
+
+2. Copier coller la commandes suivante et faire la touche Enter :
+``` bash
+cd PRESAJ_MATCH
+```
+3. Copier coller la commandes suivante et faire la touche Enter :
+``` bash
+explorer .
+```
+ouvrir le fichier config.ini et s'assurer que la configuration est ok
+
+3. Copier coller la commandes suivante dans Git Bash et faire la touche Enter :
+``` bash
+./runMatch.py
+```
+Le programme de match vient d'être lancé, il devrait prendre au maximum quelques minutes a s'exécuté.
+
+Les résultats devraient être dans le dosser `Results`
+
+Pour y accéder, ouvrir une nouvelle fenêtre de Git Bash et entrer les commandes suivantes:
+
+1. Copier coller la commandes suivante et faire la touche Enter :
+``` bash
+cd PRESAJ_MATCH
+```
+2. Copier coller la commandes suivante et faire la touche Enter :
+``` bash
+explorer .
+```
+
+Le dossier `Results` devrait y être.
+
+
+
 
 
 
