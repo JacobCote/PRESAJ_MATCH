@@ -102,10 +102,17 @@ Suivre les étapes pour Mac : https://www.dataquest.io/blog/installing-python-on
 2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win)
     (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) 
 3. Ouvrir l'application Git Bash sur l'ordinateur, une fenêtre de terminal apparaîtra.
-4. Taper 
+4. Copier coller la commandes suivant et faire la touche Enter :
 ``` bash
 git clone https://github.com/JacobCote/PRESAJ_MATCH.git
 ```
+5. Copier coller la commandes suivant et faire la touche Enter :
+``` bash
+cd PRESAJ_MATCH
+
+./setupW.sh
+```
+
 
 
 
