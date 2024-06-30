@@ -8,11 +8,11 @@ fi
 
 # Create a virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
-  echo 'venv not existing, crating a venv'
+  echo 'venv not existing, crating a venv...'
   # Create the virtual environment
   python3 -m venv venv
   # Activate the virtual environment
-  source venv/Scripts/activate
+  source venv/bin/activate
   # Install dependencies from requirements.txt
   pip install -r requirements.txt
   # Deactivate the virtual environment

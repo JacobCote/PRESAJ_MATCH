@@ -76,9 +76,11 @@ MATCH_T2: TRUE
 # Étapes pour utiliser le programme 
 ## si première fois :
 ### Installer  GIT
-Suivre les étapes pour Windows : https://www.git-scm.com/download/win
+1. Suivre les étapes pour Windows : https://www.git-scm.com/download/win
 
 Suivre les étapes pour Mac : https://www.git-scm.com/download/mac
+
+Ouvrir l'application 
 
 ### Installer python 
 Suivre les étapes pour Windows : https://www.digitalocean.com/community/tutorials/install-python-windows-10
@@ -88,9 +90,24 @@ Suivre les étapes pour Mac : https://www.dataquest.io/blog/installing-python-on
 ## lancer le programme
 
 ### windows 
-click droit sur le fichier run_match.exe -> run as administrator
+
 
 ### Mac
+
+
+# Étapes pour utiliser le programme 
+## Windows
+# Installation (Seulement faire la première fois)
+1. Installer python, suivre les [étapes](https://www.digitalocean.com/community/tutorials/install-python-windows-10)
+2. Installer Git, suivre les [étapes](https://www.git-scm.com/download/win)
+    (pour savoir si 32-bit ou 64-bit cliquez [ici](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)) 
+3. Ouvrir l'application Git Bash sur l'ordinateur, une fenêtre de terminal apparaîtra.
+4. Taper 
+``` bash
+git clone https://github.com/JacobCote/PRESAJ_MATCH.git
+```
+
+
 
 
 
