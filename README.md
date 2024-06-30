@@ -98,9 +98,9 @@ cd PRESAJ_MATCH
 ``` bash
 ls
 ```
-On devrait voir apparaître des fichiers et aussi les dossier `data/` et `venv/`.
+On devrait voir apparaître dans le terminal des fichiers et aussi les dossier `data/` et `venv/`.
 
-8. On doir maintenant ajouter les données dans le dossier `data/`. Pour ce faire, entrer la commande suivante pour ouvrir le dossier du programme (le point est important) et glissez les données dans le dossier `data/`
+8. On doir maintenant ajouter les données dans le dossier `data/`. Pour ce faire, entrer la commande suivante pour ouvrir le dossier du programme (le point est important) et glissez les banques de données B des différents temps de mesure  dans le dossier `data/`
 ``` bash
 explorer . 
 ```
@@ -121,7 +121,7 @@ ouvrir le fichier config.ini et s'assurer que la configuration est ok
 
 3. Copier coller la commandes suivante dans Git Bash et faire la touche Enter :
 ``` bash
-./runMatch.py
+./runMatchWin.sh
 ```
 Le programme de match vient d'être lancé, il devrait prendre au maximum quelques minutes a s'exécuté.
 
@@ -139,6 +139,10 @@ explorer .
 ```
 
 Le dossier `Results` devrait y être.
+
+Il est également possible d'y accéder via l'Axplorateur de fichiers:
+
+`Ce PC > Disque local (C:) > Utilisateurs > votre nom d'utilisateur > PRESAJ_MATCH > Results`
 
 
 Si vous avez des questions, vous pouvez communiquer avec moi :
