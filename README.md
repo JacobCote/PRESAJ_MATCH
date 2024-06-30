@@ -140,12 +140,12 @@ explorer .
 
 Le dossier `Results` devrait y être.
 
-Il est également possible d'y accéder via l'Axplorateur de fichiers:
+Il est également possible d'y accéder via l'Explorateur de fichiers:
 
 `Ce PC > Disque local (C:) > Utilisateurs > votre nom d'utilisateur > PRESAJ_MATCH > Results`
 
 
 Si vous avez des questions, vous pouvez communiquer avec moi :
-jacobcote@hotmail.com
+jacot180@ulaval.ca
 
 
