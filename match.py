@@ -27,9 +27,29 @@ for i in config.options('START_CODE'):
     code_start_liste.append(int(config['START_CODE'][i]))
 print('Terminé')
 print('Lecture des fichiers de données...')
-data_list= []
-for i in config.options('NOM_FICHIERS'):
-    data_list.append(pd.read_csv(config['NOM_FICHIERS'][i], dtype=object))
+comma = 0
+semicolon = 0
+try :
+    data_list_comma= []
+    for i in config.options('NOM_FICHIERS'):
+        data_list_comma.append(pd.read_csv(config['NOM_FICHIERS'][i], dtype=object,sep=','))
+    comma = data_list_comma[0].shape[1]
+except: 
+    print('Erreur dans la lecture des fichiers avec la virgule, utilisation du point-virgule comme séparateur')
+    
+try:
+    data_list_semic= []
+    for i in config.options('NOM_FICHIERS'):
+        data_list_semic.append(pd.read_csv(config['NOM_FICHIERS'][i], dtype=object,sep=';'))
+    semicolon = data_list_semic[0].shape[1]
+except:
+    print('Erreur dans la lecture des fichiers avec le point-virgule, utilisation de la virgule comme séparateur')
+    
+if comma > semicolon :
+    data_list = data_list_comma
+else :
+    data_list = data_list_semic
+        
 print('Terminé')
 num_var = int(config['CODE_LENGTH']['CODE_LENGTH'])
 CUT_OFF_SIMILARITY = int(config['PARAMETRES']['CUT_OFF_SCORE'])
@@ -224,7 +244,6 @@ for i in matching_dict:
             data_list[j+1].loc[index,'IDI'] = i
             data_list[j+1].loc[index,match_score_name] = matchs[j][1]
             
-data_list[2]['match_score-T3']
 
 if MATCH_T2 :
     
@@ -452,7 +471,6 @@ all_code = all_code.astype(str)
 all_code.shape
 num_t = len(temps_de_mesure)
 len(data_list)
-data_list[2].iloc[0,code_start_liste[2]:code_start_liste[2]+num_var].to_list()
 
 for idx, id in enumerate(idi) :
     for i in range(len(data_list)) :
